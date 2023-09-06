@@ -152,7 +152,6 @@ main{
 .online-games-card .card{
     width: 300px;
 } 
-
 .card img{
     width: 100%;
 }
@@ -163,7 +162,9 @@ main{
 /* responsive layout */
 /* mobile device */
 @media screen and (max-width:576px) {
-    nav{
+    nav,
+    .online-games-card
+    {
         flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
@@ -190,6 +191,12 @@ main{
     .banner-img{
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .online-games-card .card{
+        width: 100%;
+    } 
+    .section-title{
+        font-size: 2rem;
     }
     
 }
