@@ -124,6 +124,42 @@ nav ul li{
     width: 100%;
 } 
 
+/* main section styles */
+main{
+    max-width: 1280px;
+    margin: 50px auto;
+}
+/* online styles */
+.online-title{
+    text-align: center;
+    margin-bottom: 0;
+}
+.online-description{
+    text-align: center;
+    /* margin-top: 10px; */
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games-card{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.online-games-card .card{
+    width: 300px;
+} 
+
+.card img{
+    width: 100%;
+}
+.card-title{
+    padding-right: 5px;
+}
+
 /* responsive layout */
 /* mobile device */
 @media screen and (max-width:576px) {
